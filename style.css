@@ -1,0 +1,45 @@
+/* Mengatur tampilan elemen <h1> (judul utama) */
+h1 {
+  font-size: 18px;        /* Ukuran huruf 18 piksel */
+}
+
+/* Mengatur tampilan elemen <h2> dengan class "nama" */
+h2.nama {
+  color: yellow;               /* Warna teks kuning */
+  background-color: blue;      /* Latar belakang biru */
+  font-size: 25px;             /* Ukuran huruf 25 piksel */
+  padding: 5px;                /* Jarak di dalam elemen */
+}
+
+/* Mengatur elemen dengan ID "nim" */
+#nim {
+  color: blue;                /* Warna teks biru */
+  font-size: 25px;            /* Ukuran huruf 25 piksel */
+}
+
+/* Mengatur semua paragraf <p> */
+p {
+  text-align: center;         /* Teks diratakan ke tengah */
+}
+
+/* Mengatur elemen <span> dengan class "nama" (kata "ipsum") */
+span.nama {
+  background-color: blue;     /* Latar biru */
+  color: white;               /* Teks putih */
+  font-style: italic;         /* Huruf miring */
+  padding: 0 2px;             /* Padding horizontal 2px */
+}
+
+/* Mengatur <span> yang ada di dalam elemen dengan class "teks2" (kata "amet") */
+.teks2 span {
+  background-color: yellow;   /* Latar kuning */
+  font-style: italic;         /* Huruf miring */
+  padding: 0 2px;             /* Padding horizontal 2px */
+}
+
+/* Mengatur tampilan tautan di dalam <h3> (link ke YouTube) */
+h3 a {
+  font-size: 18px;            /* Ukuran huruf 18 piksel */
+  color: black;               /* Teks hitam */
+  text-decoration: none;      /* Menghilangkan garis bawah link */
+}
